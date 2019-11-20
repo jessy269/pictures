@@ -1,0 +1,64 @@
+body {
+	background-color: aquamarine;
+	margin:0;
+	padding:1em;
+
+}
+
+h1 {
+	font-size: 100px;
+	color: maroon;
+	text-align: center;
+	font-family: 'Dosis', sans-serif; 
+
+}
+
+img {
+	height:auto;
+	width: 100%;
+	border-radius: 50%;
+	filter: saturate(0%);
+	transition: 0.25s;
+	height:100%;
+	width:100%;
+	margin-left: 3em;
+}
+
+img:hover {
+	filter: saturate(80%);
+	height:125%;
+	width:125%;
+	
+}
+
+figure{
+
+
+	margin: 1em;
+	padding: 0.5em;
+	width: calc(25% - 1em);
+	display: inline-flex;
+	flex-direction: row wrap;
+}
+
+.second {
+	transform: rotate(100deg);
+}
+
+.chichi {
+	transform: rotate(95deg);
+
+}
+
+.lancelot {
+	transform: rotate(100deg);
+}
+
+.kobs {
+	transform: rotate(10deg);
+}
+
+.kobi {
+
+	transform: rotate(-10deg);
+}
